@@ -95,3 +95,12 @@
                 top: 50px;
                 color: gray;
             }
+       .popup-window #close-popup-btn{
+            background: red;
+            color: white;
+            width: 20px;
+            height: 20px;
+            float: right;
+                    
+                    
+        }
