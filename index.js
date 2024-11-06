@@ -10,7 +10,7 @@
             
         }
 
-        closePopup(){
+     function closePopup(){
                document.getElementById('popup').style.display = 'none';
         }
         function showpopup(){
