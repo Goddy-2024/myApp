@@ -10,7 +10,8 @@
             
         }
 
-     
+        closePopup(){
+               document.getElementById('popup').style.display = 'none';
         }
         function showpopup(){
             document.getElementById('popup').style.display = 'flex';
