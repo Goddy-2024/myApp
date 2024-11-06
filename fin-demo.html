@@ -1,0 +1,37 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Finacle</title>
+    <link rel="stylesheet" href="fin-demo.css">
+</head>
+<body>
+    <div class="login-box">
+    
+    <div class="input">
+        <div class="header">
+            <h1><img src="finlogo.png" width="30px" height="30px">Finacle<br><span class="motto">
+        Transforming Banking
+    </span></h1>
+        <h2>Universal Banking Solution from Infosys</h2>
+        </div>
+    <B>U s e r I D :</B>         <input type="text" id="username">
+    <br><br><b>Password :</b> <input type="password" id="password">
+    <button onclick="showpopup()">Login</button>
+     
+</div> 
+<footer>Copyright[] 2007-2008 Infosys Limited. All rights reserved  <a href="https://www.finacle.com">www.finacle.com</a></footer>
+</div>
+<div class="popup-overlay" id="popup">
+    <div class="popup-window">
+        <b>Verify User data:</b>
+        <div id="userid"></div>
+        <div id="error" class="error"></div>
+    <button class="ver-button" onclick="validatelogin()">verify</button>
+    </div>
+</div>
+<script src="finacle.js"> 
+
+</script>
+</body>
+</html>
