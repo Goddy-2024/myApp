@@ -105,3 +105,6 @@
                     
                     
         }
+            .popup-window #close-popup-btn:hover{
+                        cursor: pointer;
+            }
