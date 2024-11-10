@@ -10,11 +10,13 @@
             
         }
 
-     function closePopup(){
-               document.getElementById('popup').style.display = 'none';
+     
         }
         function showpopup(){
             document.getElementById('popup').style.display = 'flex';
             var ID = document.getElementById('userid');
             
+        }
+        function closePopup(){
+            document.getElementById('popup').style.display = 'none';
         }
