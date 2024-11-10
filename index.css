@@ -95,16 +95,21 @@
                 top: 50px;
                 color: gray;
             }
-       .popup-window #close-popup-btn{
-            background: red;
-            color: white;
-            width: 20px;
-            height: 20px;
-            float: right;
-            text-align: center;
-                    
-                    
-        }
-            .popup-window #close-popup-btn:hover{
-                        cursor: pointer;
+            #close-click{
+                background: red;
+                float: right;
+                position: relative;
+                color: white;
+                width: 25px;
+                height: 25px;
+                font-size: 18px;
+                text-align: center;
+                font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                display: block;
+                border-radius: 2px;
+
+                
+            }
+            #close-click:hover{
+                cursor: pointer;
             }
