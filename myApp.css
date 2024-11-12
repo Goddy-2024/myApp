@@ -1,6 +1,7 @@
 body{
     background: linear-gradient(90deg, rgb(2, 52, 48), rgba(2, 52, 48, 0.323)) ;
     margin: 0;
+    background-position: center;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: white;
     background-repeat: no-repeat;
